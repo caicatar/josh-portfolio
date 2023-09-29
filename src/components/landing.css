@@ -1,0 +1,19 @@
+.landingtxt{
+    font-size: 50px;
+    color: white;
+}
+
+.aboutmetxt {
+    font-size: 60px;
+    color: white;
+    text-align: right;
+}
+
+.pftxt {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+

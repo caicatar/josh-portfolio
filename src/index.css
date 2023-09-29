@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Advent Pro', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@600;700&display=swap');
+/* font-family: 'Alumni Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800;900&display=swap');
+/* font-family: 'Orbitron', sans-serif;  */
+
+@font-face {
+  font-family: PluranonNormal;
+  src: url("../src/fonts/PluranonNormal.ttf");
+}
+
+@font-face {
+  font-family: 'PluranonStroke';
+  src: url("../src/fonts/PluranonStroke.ttf");
+}
+/* font-family: PluranonStroke; */
+
+@font-face {
+  font-family: 'GibsonsBold';
+  src: url("../src/fonts/gibson/GibsonsOne-RegularOutline.ttf");
+}
+/* font-family: 'GibsonsBold'; */
+
+/* --- VARIABLES --- */
+:root {
+  --bg-color: #11171f;
+  --bg2-color: #232f3e19;
+  --hl-color: #48a3c6;
+  --hl2-color: #ea5b5c;
+  --text-color: #f3f3f3;
+  --secondary-text-color: #999999;
+  --grey: #9f9f9f76;
+  --spacing: 50px;
+  --sm-spacing: 30px;
+}
+
+/* --- ANIMATIONS --- */
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(1%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* --- RESETS --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  /* height: 100%; */
+  /* background-image: url("../src/pic/noise-2.gif"); */
+  background-size: 5%;
+  background-color: #000000;
+  /* background-color: #d7e3fd; */
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  /* cursor: url('../src/pic/cursor1.png'), auto; */
+}
+
+.socialIcons .icon {
+  color: white;
+}
+
+.socialIcons .icon:hover {
+  scale: 1.2;
+  color:#fcee0a;
+}
+/* --- MEDIA QUERIES --- */
+@media (min-width: 750px) {
+  .links {
+    display: flex;
+    /* background-color: red; */
+    justify-content: flex-end;
+    position: relative;
+    top: auto;
+    width: 0;
+    left: 0;
+    padding: 0 10px;
+  }
+
+  .links a {
+    padding: 0px;
+    margin-left: 3px;
+  }
+
+  .links div:not(:last-child) {
+    margin-right: 45px;
+  }
+
+  .links.open {
+    display: flex;
+  }
+
+  .dropdown-toggle {
+    display: none;
+  }
+
+  .links a:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+  }
+
+  .links a:hover:before {
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .links a.active:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--text-color);
+    transition: width 0.3s ease-in-out;
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .closed {
+    background-color: transparent;
+  }
+
+  .toggleMode {
+    display: inline-block;
+  }
+}
+
