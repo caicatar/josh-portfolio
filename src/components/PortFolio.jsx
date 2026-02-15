@@ -10,9 +10,9 @@ import A1 from "../pic/pf/1a.png";
 import A2 from "../pic/pf/1b.png";
 import A3 from "../pic/pf/1c.png";
 import A4 from "../pic/pf/1d.png";
-import B1 from "../pic/pf/2a.jpg";
-import B2 from "../pic/pf/2b.jpg";
-import B3 from "../pic/pf/2c.jpg";
+import B1 from "../pic/pf/2a.png";
+import B2 from "../pic/pf/2b.png";
+import B3 from "../pic/pf/2c.png";
 import C1 from "../pic/pf/3a.png";
 import C2 from "../pic/pf/3b.png";
 import C3 from "../pic/pf/3d.png";
@@ -24,20 +24,20 @@ import D4 from "../pic/pf/4c.png";
 import E1 from "../pic/pf/5a.png";
 import E2 from "../pic/pf/5b.png";
 import E3 from "../pic/pf/5c.png";
-import F1 from "../pic/pf/6a.png";
-import F2 from "../pic/pf/6b.png";
-import F3 from "../pic/pf/6c.png";
-import F4 from "../pic/pf/6d.png";
-import G1 from "../pic/pf/7a.png";
-import G2 from "../pic/pf/7b.png";
-import G3 from "../pic/pf/7c.png";
-import H1 from "../pic/pf/8a.png";
-import H2 from "../pic/pf/8b.png";
-import H3 from "../pic/pf/8c.png";
-import IA from "../pic/pf/9a.png";
-import J1 from "../pic/pf/10a.png";
-import J2 from "../pic/pf/10b.png";
-import J3 from "../pic/pf/10c.png";
+import F1 from "../pic/pf/5d.png";
+import F2 from "../pic/pf/6a.png";
+import F3 from "../pic/pf/6b.png";
+import F4 from "../pic/pf/6c.png";
+import G1 from "../pic/pf/6d.png";
+import G2 from "../pic/pf/7a.png";
+import G3 from "../pic/pf/7b.png";
+import H1 from "../pic/pf/7c.png";
+import H2 from "../pic/pf/7d.png";
+import H3 from "../pic/pf/8a.png";
+import IA from "../pic/pf/8b.png";
+import J1 from "../pic/pf/8c.png";
+import J2 from "../pic/pf/8d.png";
+import J3 from "../pic/pf/9a.png";
 
 import xspray from "../pic/yspray.png";
 
@@ -64,9 +64,9 @@ const PortFolio = ({ name }) => {
   return (
     <section className="pf_container container" style={{ paddingTop: 25 }}>
 
-      <h1 className="pf_title">PERSONAL PROJECTS</h1>
+      <h1 className="pf_title">BEYOND THE PIXELS</h1>
       <h3 className="pf_subtxt">
-          As a Designer, my skillset is grounded in the seamless fusion of creativity and functionality.
+          His greatest masterpiece was the impact he had on the people around him.
       </h3>
 
       <img src={xspray} className="spray1"/>
@@ -113,15 +113,26 @@ const PortFolio = ({ name }) => {
           <img src={G3} class="pf_pic" />
           <img src={IA} class="pf_pic" />
       </Marquee>
-      <div style={{display:"flex", justifyContent:"center"}}>
-        <a
-        href="https://dribbble.com/pow_esg">
-          <button className="btn_dribble" >
-            <div className="fa-brands fa-dribbble" style={{marginRight:15, color:"plum"}}/>
-            Visit my Dribble page for more!
-          </button>
-        </a> 
+      <br />
+      <br />
+      <br />
+      <h1 className="pf_title">HIS FINAL RESTING PLACE</h1>
+      <h3 className="pf_subtxt">
+          TBA.
+      </h3>
+      <div style={{display: "flex", justifyContent: "center", marginTop: "40px", marginBottom: "40px", width: "100%"}}>
+        <iframe
+          width="800"
+          height="400"
+          style={{ border: 0, borderRadius: "8px", maxWidth: "100%" }}
+          loading="lazy"
+          allowFullScreen=""
+          referrerPolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.3384566343706!2d120.94878!3d14.618622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7c8f4f4f4f5%3A0x123456!2sBagumbong%2C%20Caloocan%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1644567890"
+        ></iframe>
       </div>
+
+      
     </section>
   );
 };

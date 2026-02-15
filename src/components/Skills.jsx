@@ -40,9 +40,39 @@ const Skills = ({ name }) => {
     <section className="container" style={{paddingTop:25}}>
         <Row className="skill_cont"  style={{marginBottom:20}}>
             <h1 className="skills_title">
-                EXPERIENCE
+                A LEGACY OF DESIGN
             </h1>
+            <h3 className="skill_subtxt" style={{marginBottom:20}}>
+                Throughout his career, Paul had the privilege of working with some of the most talented teams and companies in the industry, including Avantice Corporation, Trentis Corporation and Prinax Advertising Company. His work spanned a wide range of projects, from mobile apps to websites to branding campaigns, and he always approached each one with the same level of passion and dedication.
+            </h3>
+            <br/>
             <Row style={{marginBottom:20}}>
+                <Col xl={5} lg={5} md={6} s={6} xs={6} style={{paddingLeft:"0px"}}>
+                    <h3 style={{fontWeight:800, fontSize:22}}>
+                        User Experience Designer
+                    </h3>
+                    
+                </Col>
+                <Col xl={7} lg={7} md={6} s={6} xs={6} style={{textAlign:"right"}}>
+                    <h4 style={{fontWeight:600}}>
+                        Trentis Corporation Feb 2025 – Present
+                    </h4>
+                </Col>
+            </Row>
+            <Row style={{marginBottom:20}}>
+                <Col xl={5} lg={5} md={6} s={6} xs={6} style={{paddingLeft:"0px"}}>
+                    <h3 style={{fontWeight:800, fontSize:22}}>
+                        User Experience Designer
+                    </h3>
+                    
+                </Col>
+                <Col xl={7} lg={7} md={6} s={6} xs={6} style={{textAlign:"right"}}>
+                    <h4 style={{fontWeight:600}}>
+                        Avantice Corporation Dec 2023 – Dec 2024 
+                    </h4>
+                </Col>
+            </Row>
+                        <Row style={{marginBottom:20}}>
                 <Col xl={5} lg={5} md={6} s={6} xs={6} style={{paddingLeft:"0px"}}>
                     <h3 style={{fontWeight:800, fontSize:22}}>
                         UI / UX & Graphic Designer
@@ -54,11 +84,6 @@ const Skills = ({ name }) => {
                         Prinax Advertising Company  Feb 2019 – Sep 2023 
                     </h4>
                 </Col>
-                <h4 style={{fontWeight:600, fontSize:16, padding:0, marginTop:15,}}>
-                    My duties include designing the framework of an app or website's user interface, planning how users will interact with it, and collaborating closely with developers and other team members to bring the design to life.
-
-                    Also responsible for creating graphics to make the interface visually appealing and creating interactive models to test and iterate the design before it is fully completed.    
-                </h4>
             </Row>
         </Row>
 
@@ -69,11 +94,10 @@ const Skills = ({ name }) => {
             <img src={cornerblack} className="skillcorn_4"/>
 
             <h1 className="skills_title">
-                SKILLS & QUALIFICATIONS
+                TOOLS OF HIS TRADE
             </h1>
             <h3 className="skill_subtxt">
-                As a Designer, my skillset is grounded in the seamless fusion of creativity and functionality.
-            </h3>
+As a dedicated designer, his skillset was a testament to his lifelong pursuit of seamlessly fusing creativity with functionality.            </h3>
             <Row style={{paddingTop:20,marginBottom:10}}  className=' justify-content-center'>
                 <Col lg={4} md={4} s={4} xs={4} className='justify-content-center' >
                     <img src={cd} class="skill_pic"/>

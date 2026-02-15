@@ -224,10 +224,10 @@ const Hero = () => {
                                   transition={{ duration:0.3, delay: 0.5, ease: "easeInOut" }}
                                 >
                                   <h1 className='landingtxt-3'>
-                                    HELLO
+                                    PAUL
                                   </h1>
                                   <h1 className='landingtxt-3' style={{float:"right"}}>
-                                    THERE
+                                    WAS HERE
                                   </h1>
                                 </motion.div>
                               <motion.div
@@ -238,9 +238,10 @@ const Hero = () => {
                                 <Row className='landing_aboutme' data-scroll data-scroll-speed={2}>
                                   
                                     <h1 className='landingtxt-1'>
-                                      I'M PAUL JOSHUA ESGUERRA<br/>
-                                      A VISUAL DESIGNER SPECIALIZING IN<br/>
-                                      UI / UX & GRAPHIC DESIGN
+                                      A visual designer who believed <br/>
+                                      technology should feel alive, human, <br/>
+                                      and a little bit magical.<br/><br/>
+                                      A Brother, Son and Dear Friend.<br/>
                                     </h1>
                                   
                                 </Row>
@@ -290,14 +291,16 @@ const Hero = () => {
                         <div className='contact_top'/>
                         <Row className="contact_cont">
                           <h1 className="contact_title">
-                              CONTACT INFO
+                              IN LOVING MEMORY
                           </h1>
                           <h3 className="contact_subtxt">
-                            Let's connect and build someting awesome together!
+                            This website was crafted by Paul to share his passion for design with the world. We've updated it to serve as a living tribute to his memory, his art, and the beautiful moments we shared with him.<br/>
+                            I kept the original design and vibe of the website to honor his vision, while changing contents to make it celebrates his life and work. <br/><br/>
+                            Thank you for visiting and remembering Paul with us. He may be gone, but his spirit and creativity will live on forever through this website and the memories we hold dear.
                           </h3>
                           
                           <Row  className='contact_inner'>
-                              <Col lg={6} md={6} s={12} xs={12} style={{marginBottom:10}}>
+                              {/* <Col lg={6} md={6} s={12} xs={12} style={{marginBottom:10}}>
                                 <div className='contact_details'>
                                   <span style={{fontSize:16}}>Contact Number</span> 
                                     <br/>
@@ -310,7 +313,7 @@ const Hero = () => {
                                 <br/>
                                 esgjosh08@gmail.com
                                 </div>
-                              </Col>
+                              </Col> */}
                           </Row>
                           <Row className='align-items-center justify-content-center' >
                             <div

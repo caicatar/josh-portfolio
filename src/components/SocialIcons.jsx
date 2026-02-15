@@ -30,7 +30,7 @@ const SocialIcons = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.7, duration: 0.5, type: "spring" }}
-          className="fa-brands fa-facebook"
+          className="fa fa-heart"
           aria-hidden="true"
         ></motion.i>
       </a>
@@ -43,7 +43,7 @@ const SocialIcons = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.6, duration: 0.5, type: "spring" }}
-          className="fa-brands fa-instagram"
+          className="fa fa-heart"
           aria-hidden="true"
         ></motion.i>
       </a>
@@ -56,7 +56,7 @@ const SocialIcons = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 0.5, type: "spring" }}
-          className="fa-brands fa-linkedin"
+          className="fa fa-heart"
           aria-hidden="true"
         ></motion.i>
       </a>
@@ -69,7 +69,7 @@ const SocialIcons = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5, duration: 0.5, type: "spring" }}
-          className="fa-brands fa-dribbble"
+          className="fa fa-heart"
           aria-hidden="true"
         ></motion.i>
       </a>

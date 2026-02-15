@@ -3,6 +3,10 @@
     color: white;
 }
 
+.landing_aboutme {
+    bottom: -150px !important;
+    min-height: 260px; 
+}
 .aboutmetxt {
     font-size: 60px;
     color: white;
@@ -14,6 +18,13 @@
     color: white;
     text-align: center;
     padding-top: 100px;
+}
+
+
+@media (max-width: 600px) {
+    .landing_aboutme {
+        bottom: -150px !important;
+    }
 }
 
 

@@ -97,32 +97,27 @@ const AboutMe = ({ name }) => {
           </Col>
           <Col xl={8} lg={8} md={7} xs={7} className="aboutme_txt" >
           <br/>
-            <span style={{color:"yellow", fontSize:12}}>
-              Name
+            <span style={{color:"yellow", fontSize:30}}>
+              <bold>PAUL JOSHUA ESGUERRA</bold>
             </span><br/>
-            PAUL JOSHUA ESGUERRA
-            <br/><br/>
-
-            <span style={{color:"yellow", fontSize:12}}>
-              Date of Birth
+            May 08, 1998 - Feb 14, 2026<br/>
+            <br/>
+            <span style={{color:"yellow", fontSize:15}}>
+A dedicated brother, the unwavering breadwinner of his family, and a guiding light for everyone who crossed his path.
+Through his creativity, kindness, and generosity, he left a world brighter than he found it.
             </span><br/>
-            May 08, 1998
-            <br/><br/>
-
-            <span style={{color:"yellow", fontSize:12}}>
-              Location
-            </span><br/>
-            Bagumbong, Caloocan City
-
           </Col>
           
         </Row>
         <br/>
         <div className="aboutme">
-          Hi! I'm a dedicated UI/UX and Graphic designer with a passion for creating visually appealing and user-friendly digital experiences. With a background in design and a keen eye for detail.
+           Paul was a dedicated UI/UX and graphic designer with a deep passion for creating experiences that felt both beautiful and meaningful. With a strong eye for detail and a love for thoughtful design, he believed technology should serve people — not the other way around.
           <br/>
           <br/>
-          My journey as a designer began several years ago when I discovered my fascination with the intersection of art and technology. Since then, I've been on a relentless quest to learn and grow in this ever-evolving field. I believe that good design is not just about aesthetics; it's about solving real-world problems and enhancing the way people interact with technology.
+His journey began with a fascination for the intersection of art and technology, and from there he never stopped learning, exploring, and building. For Paul, design was never just about aesthetics — it was about solving real problems and shaping the way people connect with the digital world.
+Though his time was short, the work he created and the lives he touched continue to speak for him.
+        <br/><br/>
+Paul was not only a talented designer but also a beloved brother, son, and friend. He will be remembered for his kindness, creativity, and the joy he brought to those around him. His legacy lives on through the work he created and the memories he shared with loved ones.
         </div>
 
     </section>
